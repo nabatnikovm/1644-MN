@@ -16,7 +16,7 @@
            $num1 = rand(1,20); $num2 = rand(1,20);
            if ($operator=='/' and $num1%$num2!=0                                    
            or  $operator=='-' and $num1-$num2>0                                    
-           or  $operator=='*' and $num1*$num2<100);{                                  
+           or  $operator=='*' and $num1*$num2<100){                                  
             --$j;
             continue;
            }
